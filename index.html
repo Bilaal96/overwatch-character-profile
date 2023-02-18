@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Overwatch Heroes</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="wrapper">
+        <a class="logo">
+          <img
+            src="/assets/Overwatch_circle_logo.png"
+            alt="Logo for Overwatch video game"
+          />
+          <p class="logo-text" href="index.html">Overwatch</p>
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <div class="wrapper">
+        <section class="hero-summary">
+          <!-- hero-card -->
+          <div class="hero-card">
+            <!-- hero-card-header -->
+            <div class="hero-card-header">
+              <h1 class="hero-name">
+                Hero:
+                <span class="highlight">Baptiste</span>
+              </h1>
+              <div class="hero-img-container">
+                <img
+                  class="hero-img"
+                  src="/assets/OW2_Baptiste.png"
+                  alt="The character Baptiste from Overwatch 2"
+                />
+              </div>
+            </div>
+            <!-- hero-card-body -->
+            <div class="hero-card-body">
+              <ul class="card-details-list">
+                <li>
+                  <span class="detail detail-key">Real Name</span>
+                  <span class="detail detail-value"
+                    >Jean-Baptiste Augustin</span
+                  >
+                </li>
+                <li>
+                  <span class="detail detail-key">Status</span>
+                  <span class="detail detail-value">Active</span>
+                </li>
+                <li>
+                  <span class="detail detail-key">Role</span>
+                  <span class="detail detail-value">Support</span>
+                </li>
+                <li>
+                  <span class="detail detail-key">Health</span>
+                  <span class="detail detail-value">200</span>
+                </li>
+                <li>
+                  <span class="detail detail-key">Nationality</span>
+                  <span class="detail detail-value">Haitian</span>
+                </li>
+                <li>
+                  <span class="detail detail-key">Occupation</span>
+                  <span class="detail detail-value">Combat Medic</span>
+                </li>
+                <li>
+                  <span class="detail detail-key">Base</span>
+                  <span class="detail detail-value"
+                    >Tortuga, Haiti (formerly)</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <article class="hero-background">
+            <h2>Overview</h2>
+            <p>
+              Baptiste wields an assortment of experimental devices and weaponry
+              to keep allies alive and eliminate threats under fierce
+              conditions. A battle-hardened combat medic, he is just as capable
+              of saving lives as he is taking out the enemy.
+            </p>
+
+            <h2>Abilities</h2>
+            <!-- Ability 1 -->
+            <img
+              class="ability exo-boost"
+              src="/assets/ability-exo-boots.png"
+              alt="outline of exo boost ability"
+            />
+            <ul class="ability-details with-float">
+              Details:
+              <li>
+                Damage per second: ~127.5 while firing (109 overall w/reload)
+              </li>
+              <li>
+                Baptiste's crosshair moves up as he fires, then comes back down
+                after firing.
+              </li>
+              <li>
+                Reloading Biotic Launcher replenishes the ammo for both the
+                primary and alternate fire.
+              </li>
+            </ul>
+            <div class="clear-float"></div>
+
+            <!-- Biotic Launcher & Alt Fire -->
+            <div class="biotic-launcher">
+              <!-- Ability 2 -->
+              <img
+                class="ability primary-fire"
+                src="/assets/ability-biotic-launcher.png"
+                alt="outline of biotic launcher ability"
+              />
+
+              <!-- Ability 3 -->
+              <img
+                class="ability alt-fire"
+                src="/assets/ability-biotic-launcher-alt-fire.png"
+                alt="outline of biotic launcher alternative fire ability"
+              />
+            </div>
+
+            <!-- Biotic Launcher Details -->
+            <ul class="ability-details">
+              Details:
+              <li>
+                Damage per second: ~127.5 while firing (109 overall w/reload)
+              </li>
+              <li>
+                Baptiste's crosshair moves up as he fires, then comes back down
+                after firing.
+              </li>
+              <li>
+                Reloading Biotic Launcher replenishes the ammo for both the
+                primary and alternate fire.
+              </li>
+            </ul>
+
+            <!-- Ability 4 -->
+            <div class="ability-group-horizontal">
+              <img
+                class="ability regen-burst"
+                src="/assets/ability-regenerative-burst.png"
+                alt="outline of regenerative burst ability"
+              />
+
+              <ul class="ability-details">
+                Details:
+                <li>Healing per second = 10</li>
+                <li>
+                  The heal-over-time effect is applied once upon activation.
+                  Allies can get out of range and continue to get healed.
+                </li>
+                <li>
+                  Although the ability has a casting animation, the healing over
+                  time is applied instantly, but begins healing after a delay,
+                  which means it cannot be interrupted by stuns, hacks or death.
+                </li>
+              </ul>
+            </div>
+
+            <!-- Ability 5 -->
+            <div class="ability-group-horizontal">
+              <img
+                class="ability immortality-field"
+                src="/assets/ability-immortality-field.png"
+                alt="outline of immortality field ability"
+              />
+
+              <ul class="ability-details">
+                Details:
+                <li>
+                  Prevents the HP of Baptiste and his allies from going below
+                  10%. It even prevents environmental death, but healing the HP
+                  lost this way will not give ultimate charge.
+                </li>
+                <li>
+                  Heroes with HP below 10% will instantly be healed to 10% when
+                  entering the field. Biotic Grenade can amplify or block this;
+                  if the healing is blocked, Immortality Field will still
+                  prevent all incoming damage.
+                </li>
+                <li>
+                  The generator can be thrown and bounced off walls. The arc is
+                  identical to that of Biotic Launcher's alternate fire, except
+                  Immortality Field collides with the skybox.
+                </li>
+                <li>
+                  The field requires line of sight, but both the thrown
+                  generator and the field ignore barriers.
+                </li>
+                <li>
+                  Sombra's Ability Hack instantly destroys immortality field.
+                </li>
+              </ul>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <p>
+        <a target="_blank" href="https://www.activisionblizzard.com/"
+          >Activision Blizzard</a
+        >
+        © 2023
+      </p>
+    </footer>
+  </body>
+</html>
